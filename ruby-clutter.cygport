@@ -1,0 +1,11 @@
+inherit rubygem
+
+NAME="ruby-clutter"
+VERSION=1.2.1
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby Clutter bindings"
+DESCRIPTION="Ruby/Clutter is a Ruby binding of Clutter."
+HOMEPAGE="http://ruby-gnome2.sourceforge.jp/"
+
+REQUIRES="girepository-Clutter1.0"
