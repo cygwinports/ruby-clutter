@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-clutter"
-VERSION=3.1.1
+VERSION=3.1.8
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby Clutter bindings"
@@ -12,5 +12,5 @@ ARCH=noarch
 
 PKG_NAMES="${NAME} ${NAME}-doc"
 ruby_clutter_REQUIRES="girepository-Clutter1.0"
-ruby_clutter_CONTENTS="--exclude=sample ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_clutter_CONTENTS="--exclude=sample ${RUBYGEM_EXTDIR#/} ${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
 ruby_clutter_doc_CONTENTS="${RUBYGEM_DOCDIR#/} ${RUBYGEM_INSTDIR#/}/sample/"
